@@ -11,6 +11,10 @@ button{
     border-radius: 5px;
 }
 
+.container {
+    align-content: center;
+
+}
 
 .header-title {
     color: white;
@@ -21,12 +25,12 @@ button{
 
 .card {
     background-color: white;
-    width: 1200px;
-    margin: 20px 40px;
+    width: 50%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 2px rgba(163,163,163,0.5);
     border: 1px solid rgb(151,151,151);
+    margin: 20px auto;
 }
 
 .card-title{
