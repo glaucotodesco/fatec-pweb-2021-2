@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        h1, h2  {
+           color : green
+        }
+
+        div {
+            color: blue;
+            font-size: 30px;
+            background-color: gainsboro
+        }
+
+        .minhaClasse h1 {
+            color: blueviolet;
+        }
+
+        div .minhaClasse {       /* Todos os descendentes */
+            color: red;
+        }
+        
+
+    </style>
+
+    <title>Exemplo05 - Selectors</title>
+</head>
+
+<body>
+    <div>
+        <h1>Título 1</h1>
+        <h2>Sub-Título 1</h2>
+        <div> Texto 1 </div>
+        <p>Paragrafo 1</p>
+    </div>
+
+    <div class="minhaClasse">
+        <h1>Título 2</h1>
+        <h2>Sub-Título 2</h2>
+        <div> Texto 2 - Eu continuo azul </div>
+        <p>Paragrafo 2</p>
+    </div>
+
+</body>
+
+</html>

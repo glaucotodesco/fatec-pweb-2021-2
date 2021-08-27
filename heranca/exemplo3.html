@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        div {
+            color: blue;                /* Propriedade Herdada */ 
+            border: 3px solid red;      /* Propriedade Não Herdada */
+            background-color: silver;   /* Propriedade Herdada */
+            margin: 50px;                 /* Propriedade Não Herdada */ 
+        }
+
+        div p {
+            border: inherit;              /* Força a heranca do pai */
+            margin: inherit;              /* Força a heranca do pai */      
+        }
+
+    </style>
+
+    <title>Exemplo03 - Heranca</title>
+</head>
+
+<body>
+    
+    <div>
+        Texto 1
+        <p>Paragrafo 1</p>
+    </div>
+   
+    <div>
+        Texto 2
+        <p>Paragrafo 2</p>
+    </div>
+  
+
+    <p>Paragrafo 3</p>
+
+  
+ 
+</body>
+
+</html>

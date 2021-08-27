@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .myClasse1  /* Todos */
+        {
+            color: blue;
+        }
+
+        .myClasse2 > p /* Filho direto */
+        {
+            color: blue;
+        }
+
+
+        .myClasse3 > p > strong /* Filho direto */
+        {
+            color: blue;
+        }
+
+    </style>
+
+    <title>Exemplo05 - Selectors</title>
+</head>
+
+<body>
+    <div class="myClasse1">
+        <div>
+            <p>Paragrafo 1</p>
+        </div>
+        <p>Paragrafo 2</p>
+    </div>
+
+    <div class="myClasse2">
+        <div>
+            <p>Paragrafo 3</p>
+        </div>
+        <p>Paragrafo 4</p>
+    </div>
+
+    
+    <div class="myClasse3">
+        <div>
+            <p>Paragrafo <strong>Não mudei de cor</strong>3</p>
+        </div>
+        <p>Paragrafo <strong>Mudei de cor</strong></p>
+    </div>
+    
+</body>
+
+</html>
