@@ -11,9 +11,20 @@ button{
     border-radius: 5px;
 }
 
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 10px;
+
+}
+
 .container {
     align-content: center;
-
 }
 
 .header-title {
@@ -44,3 +55,14 @@ button{
     margin-bottom: 20px;
 }
 
+.card-form {
+    width: 100%;
+}
+
+.form-input{
+    width: 80%;
+}
+
+.form-group {
+  margin-bottom: 20px;   
+}
