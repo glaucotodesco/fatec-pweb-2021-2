@@ -12,21 +12,11 @@
         .card {
             margin: 5px;
             display: flex;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
             background-color: silver;
             height: 150px;
             align-items: center;
             justify-content: center;
-        }
-
-        .size1 {
-           flex-basis: auto;
-           background-color: red;
-        }
-
-        .size2 {
-            flex-basis: 200px;
-            background-color: green;
         }
         .box {
             color: white;
@@ -35,8 +25,24 @@
             margin: 0px;
             border: 1px solid black;
         }
+
+        .size1 {
+           flex-grow: 0;
+           background-color: red;
+        }
+
+        .size2 {
+            flex-grow: 1;
+            background-color: green;
+        }
+
+        .size3 {
+            flex-grow: 4;
+            background-color: blueviolet;
+        }
+        
     </style>
-    <title>Exemplo05 - Display flex 1</title>
+    <title>Exemplo04 - Display flex 1</title>
 </head>
 
 <body>
@@ -62,10 +68,10 @@
     <div class="card">
         <div class="box size1">AAA 1</div>
         <div class="box size2">BBB 2</div>
-        <div class="box size1">CCCCC 3</div>
-        <div class="box size2">DDDDD 4</div>
-        <div class="box size1">EEEEEEEE 5</div>
-        <div class="box size2">FFFFFFFF 6</div>
+        <div class="box size3">CCCCC 3</div>
+        <div class="box size1">DDDDD 4</div>
+        <div class="box size2">EEEEEEEE 5</div>
+        <div class="box size3">FFFFFFFF 6</div>
     </div>
 
 
