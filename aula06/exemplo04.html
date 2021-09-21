@@ -9,21 +9,20 @@
     <style>
 
         body {
-            margin: 0px;
+            margin: 0;
             display: flex;
-            flex-direction: row;
+        
         }
          
         html, body {
             height: 100%;
         }
 
-        .col {
+        .row {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
-            height: 100%;
             background-color: aqua;
             height: 800px;
             width: 600px;
@@ -31,17 +30,14 @@
             border: 1px solid black;
         }
 
-        .row {
+        .col {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             background-color: blueviolet;
             margin: auto;
-            width: 600px;
-            align-items: center;
-            justify-content: center;
             border: 1px solid black;
         }
-
+        
         .box {
             background-color: blue;
             color: white;
@@ -54,34 +50,18 @@
             margin: 5px;
         }
 
-        
+      
 
     </style>
 
-    <title>Exemplo10 - Display flex 2</title>
+    <title>Aula 04 - Display flex 2</title>
 </head>
 
 <body>
-  <div class="col">
-    <div class="row">
-        <div class="box">Center1</div>
-    </div>  
-    <div class="row">
-        <div class="box">Center2</div>
-        <div class="box">Center3</div>
-    </div>  
-    <div class="row">
-        <div class="box">Center4</div>
-        <div class="box">Center5</div>
-        <div class="box">Center6</div>
-    </div>  
-  </div>
-  
+
   <div class="row">
     <div class="col">
         <div class="box">Center1</div>
-    </div>  
-    <div class="col">
         <div class="box">Center2</div>
         <div class="box">Center3</div>
     </div>  
@@ -90,7 +70,22 @@
         <div class="box">Center5</div>
         <div class="box">Center6</div>
     </div>  
+    <div class="col">
+        <div class="box">Center7</div>
+        <div class="box">Center8</div>
+        <div class="box">Center9</div>
+    </div>  
   </div>
+
+  <div class="row">
+        <div class="box">Center1</div>
+        <div class="box">Center2</div>
+        <div class="box">Center3</div>
+  </div>
+   
+  
+
+
 </body>
 
 </html>
